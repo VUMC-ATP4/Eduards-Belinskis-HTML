@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mans pirmais HTML dokuments</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<h1> Virsraksts</h1>
+
+<!--sie vienmer bus tikai komentari-->
+<p> Ārā spīd saule</p>
+
+<h3 class="zalsteksts"> Auns</h3>
+<p class="zalsteksts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit eleifend lobortis. Nunc in ipsum ultricies massa bibendum aliquet et ac risus. Quisque convallis arcu libero, pharetra imperdiet lorem semper viverra. Nulla ante arcu, laoreet vitae molestie in, pulvinar a magna. Aliquam quis pretium lacus, vitae lacinia erat. Mauris vel euismod sem. Etiam facilisis ornare mi, a <strong>pulvinar orci pretium eget</strong>. Sed dolor est, sollicitudin vel risus a, mollis lacinia ante. Donec facilisis dui vel purus consequat, id pellentesque felis vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas eget interdum nulla, ullamcorper blandit.</p>
+<br>
+<h3>Kaza</h3>
+<p id="unikalsid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit eleifend lobortis. Nunc in ipsum ultricies massa bibendum aliquet et ac risus. Quisque convallis arcu libero, pharetra imperdiet lorem semper viverra. Nulla ante arcu, laoreet vitae molestie in, pulvinar a magna. <a href="https://www.google.com/search?q=quis&oq=quis&aqs=chrome..69i57j46i512j46i10j0i10l6j0i271.1270j0j4&sourceid=chrome&ie=UTF-8" target="_blank">quis</a> quis pretium lacus, vitae lacinia erat. Mauris vel euismod sem. Etiam facilisis ornare mi, a pulvinar orci pretium eget. Sed dolor est, sollicitudin vel risus a, mollis lacinia ante. Donec facilisis dui vel purus consequat, id pellentesque felis vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas eget interdum nulla, ullamcorper blandit.</p>
+
+<a href="https://www.linkedin.com/in/eduards-belinskis-b04008b9/" target="_blank">Saite uz linkedin</a>
+<br>
+<h4>Bilde no interneta</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Jiao_zi.jpg" width="50%" alt="bilde ar vecu naudu">
+
+<h4>Bilde no sistemas</h4>
+<img src="images/download.jpeg" width="25%">
+
+<div id="specialramitis">
+<div class="ramitis left">
+<h4>Pirkuma saraksts</h4>
+<ul>
+    <li> 
+        <a href="https://mansbuklets.lv/kartupeli?store=maxima" target="_blank" >desa</a>
+    </li>
+    <li>maize</li>
+    <li>siers</li>
+    <li>sviests</li>
+</ul>
+</div>
+<div class="ramitis right">
+
+<h5>Omletes recepte</h5>
+
+<ol>
+    <li>Sasit</li>
+    <li>sakul</li>
+    <li>piens</li>
+    <li>cep</li>
+</ol>
+</div>
+</div>
+
+<input id="vecums">
+<br>
+<button id="poga">
+    Uzspied!
+</button>
+<p>Lietotaja vecums ir: <strong id="lietotajavecums"></strong> </p>
+</body>
+
+<script>
+  
+  document.getElementById("poga").onclick = function() {
+      var vecums = 
+    alert("Poga tika nospiesta");
+};
+</script>
+</html>

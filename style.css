@@ -1,0 +1,49 @@
+.zalsteksts {
+    color: green;
+    border-style: dashed;
+
+}
+
+#unikalsid { 
+    color: blueviolet;
+    font-size: larger;
+}
+.ramitis {
+    border-style: outset;
+    border-color: aqua;
+    
+}
+
+#specialramitis {
+    border-style: outset;
+    border-color: rgb(0, 255, 21);
+    margin:20px;
+    padding:20px;
+    width: 45%;
+    display:grid;
+    grid-template-columns: 50% 55%;
+
+
+}
+
+ul li {
+    font-style: italic;
+}
+
+ol li {
+    text-decoration: underline;
+}
+
+body{
+
+background-color: rgb(255, 213, 0);
+
+}
+
+.left{
+    background-color: blue;
+}
+
+.right{
+    background-color: beige;
+}
