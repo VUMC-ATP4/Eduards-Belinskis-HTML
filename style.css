@@ -11,17 +11,19 @@
 .ramitis {
     border-style: outset;
     border-color: aqua;
+    size: 100px;
     
 }
 
 #specialramitis {
     border-style: outset;
-    border-color: rgb(0, 255, 21);
+    border-color: rgb(8, 8, 8);
     margin:20px;
     padding:20px;
     width: 45%;
-    display:grid;
-    grid-template-columns: 50% 55%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    size: 400px;
 
 
 }
