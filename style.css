@@ -1,49 +1,25 @@
-.zalsteksts {
-    color: green;
-    border-style: dashed;
-
-}
-
-#unikalsid { 
-    color: blueviolet;
-    font-size: larger;
-}
-.ramitis {
-    border-style: outset;
-    border-color: aqua;
+.kreisapuse{
+  
+    width: 100%;
+    background-color: darkgrey;
+    
     
 }
 
-#specialramitis {
-    border-style: outset;
-    border-color: rgb(0, 255, 21);
+.labapuse{
+
+    width: 100%;
+    background-color: grey;
+}
+
+.lielaisramis{
+    border-style: groove;
+    border-color:black;
     margin:20px;
     padding:20px;
-    width: 45%;
-    display:grid;
-    grid-template-columns: 50% 55%;
-
-
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color:black
 }
 
-ul li {
-    font-style: italic;
-}
-
-ol li {
-    text-decoration: underline;
-}
-
-body{
-
-background-color: rgb(255, 213, 0);
-
-}
-
-.left{
-    background-color: blue;
-}
-
-.right{
-    background-color: beige;
-}
+h1{ text-align: center;}
